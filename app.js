@@ -44,9 +44,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function getTime(time) {
-        const times = { "Rapide": "-10 min", "Moyen": "10 - 20 min", "Long": "+20 min" };
-        return times[time];
-    }
+    const times = {
+        "Rapide": "-10 min",
+        "Moyen": "10 - 20 min",
+        "Long": "+20 min"
+    };
+    return times[time];
+}
+
 
     function getComponents(classes) {
         const icons = {
