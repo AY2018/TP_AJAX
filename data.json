@@ -1,0 +1,124 @@
+{
+    "plats": [
+        {
+            "id": 1,
+            "titre": "Macaroni classique à la tomate",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Boeuf", "Facile", "Rapide"]
+        },
+        {
+            "id": 2,
+            "titre": "Macaroni au fromage et poulet",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Fromage", "Poulet", "Modéré", "Moyen"]
+        },
+        {
+            "id": 3,
+            "titre": "Macaroni aux fruits de mer",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Béchamel", "Fruits de mer", "Difficile", "Long"]
+        },
+        {
+            "id": 4,
+            "titre": "Macaroni végétarien rapide",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Sans viande", "Facile", "Rapide"]
+        },
+        {
+            "id": 5,
+            "titre": "Macaroni au boeuf épicé",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Fromage", "Boeuf", "Difficile", "Moyen"]
+        },
+        {
+            "id": 6,
+            "titre": "Macaroni crémeux au poulet",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Béchamel", "Poulet", "Modéré", "Long"]
+        },
+        {
+            "id": 7,
+            "titre": "Macaroni au fromage classique",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Fromage", "Sans viande", "Facile", "Rapide"]
+        },
+        {
+            "id": 8,
+            "titre": "Macaroni aux fruits de mer épicés",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Fruits de mer", "Difficile", "Moyen"]
+        },
+        {
+            "id": 9,
+            "titre": "Macaroni rapide au boeuf",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Boeuf", "Facile", "Rapide"]
+        },
+        {
+            "id": 10,
+            "titre": "Macaroni végétarien crémeux",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Béchamel", "Sans viande", "Modéré", "Moyen"]
+        },
+        {
+            "id": 11,
+            "titre": "Macaroni au poulet et béchamel",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Béchamel", "Poulet", "Difficile", "Long"]
+        },
+        {
+            "id": 12,
+            "titre": "Macaroni au boeuf et fromage",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Fromage", "Boeuf", "Facile", "Moyen"]
+        },
+        {
+            "id": 13,
+            "titre": "Macaroni végétarien à la tomate",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Sans viande", "Modéré", "Rapide"]
+        },
+        {
+            "id": 14,
+            "titre": "Macaroni au poulet épicé",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Poulet", "Difficile", "Long"]
+        },
+        {
+            "id": 15,
+            "titre": "Macaroni aux fruits de mer au fromage",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Fromage", "Fruits de mer", "Facile", "Rapide"]
+        },
+        {
+            "id": 16,
+            "titre": "Macaroni végétarien long à préparer",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Béchamel", "Sans viande", "Modéré", "Long"]
+        },
+        {
+            "id": 17,
+            "titre": "Macaroni au boeuf et béchamel",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Béchamel", "Boeuf", "Difficile", "Moyen"]
+        },
+        {
+            "id": 18,
+            "titre": "Macaroni rapide au poulet",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Poulet", "Facile", "Rapide"]
+        },
+        {
+            "id": 19,
+            "titre": "Macaroni crémeux aux fruits de mer",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Fromage", "Fruits de mer", "Modéré", "Long"]
+        },
+        {
+            "id": 20,
+            "titre": "Macaroni épicé végétarien",
+            "imgSrc": "./img/plats/cheese.jpeg",
+            "classes": ["Tomate", "Sans viande", "Difficile", "Moyen"]
+        }
+    ]
+}

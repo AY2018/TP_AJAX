@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "titre": "Création du fond d'un jeu vidéo sur Photoshop (SAE)",
+            "imgSrc": "test",
+            "classes": ["1", "SAE", "Crea", "Seul"]
+        },
+        {
+            "id": 2,
+            "titre": "Création d'un dashboard d'un club de foot en PHP",
+            "imgSrc": "test",
+            "classes": ["1", "Normal", "Dev", "Seul"]
+        }, 
+        {
+            "id": 3,
+            "titre": "Création du fond d'un jeu vidéo sur Photoshop (SAE)",
+            "imgSrc": "test",
+            "classes": ["2", "SAE", "Crea", "Seul"]
+        },
+        {
+            "id": 4,
+            "titre": "Création d'un dashboard d'un club de foot en PHP",
+            "imgSrc": "test",
+            "classes": ["2", "Normal", "Dev", "Seul"]
+        }, 
+        {
+            "id": 5,  
+            "titre": "Test",
+            "imgSrc": "chemin_vers_image_test.jpg",  
+            "classes": ["2", "Groupe", "Crea", "Com"]
+        }
+        
+    ]
+}
