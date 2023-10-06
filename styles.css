@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+
+html, body{
+    overflow: hidden;
+}
+
 img {
     object-fit: cover;
     display: block;
@@ -21,7 +26,6 @@ body{
     position: relative;
     height: 100vh;
     width: 100%;
-    overflow: hidden;
     display: flex;
     color: #2f4a5f;
 }
@@ -50,8 +54,10 @@ header{
     align-items: center;
     color: black;
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
+    max-height: 250px;
+    justify-content: center;
 }
 
 .logo h1 {
@@ -76,6 +82,7 @@ header{
     width: 100%;
     transform: translateY(-50%);
     padding: 30px;
+    margin-top: 50px;
 }
 
 
@@ -87,6 +94,13 @@ header{
     gap: 5px;
 }
 
+.boutons section h1{
+    font-size: 1rem;
+    opacity: 0.6;
+    width: 100%;
+    border-bottom: 1px solid #2f4a5f;
+    margin-bottom: 5px;
+}
 
 button{
     display: flex;
@@ -112,7 +126,6 @@ button.active {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 0.6rem;
 }
 
 
@@ -155,6 +168,7 @@ main ul li{
     padding: 10px;
     background-color: #f9f4e0;
     gap: 10px;
+    height: 320px;
     
 }
 
@@ -170,7 +184,6 @@ main figure{
     height: 65%;
     border-radius: 15px;
     position: relative;
-    background-color: blue;
 }
 
 main figure img{
@@ -241,4 +254,150 @@ main ul .img_content{
     font-weight: bold;
     width: 45%;
     justify-content: center;
+}
+
+
+header .fa-x, main .fa-bars{
+    display: none;
+}
+
+@media (max-width: 1443px) {
+    .component{
+        font-size: 0.8rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 1260px) {
+    header{
+        width: 30%;
+    }
+
+    main{
+        width: 70%;
+    }
+    main ul li{
+        width: 48%;
+    }
+}
+
+
+
+
+
+
+@keyframes goLeft{
+    to{
+        left: -100%;
+    }
+}
+
+@keyframes goRight{
+    to{
+        left: 0;
+    }
+}
+
+@media (max-width: 923px){
+
+    header .fa-x{
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    header{
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 5%;
+        left: -100%;
+        transition: left 0.3s ease-in;
+    }
+
+    /* .header_mobile_out{
+        animation: goLeft 0.3s ease-in forwards 1s;
+    } */
+
+
+    .logo{
+        max-width: 450px;
+        height: 20%;
+        margin: 0;
+    }
+
+    .logo h1{
+        font-size: 3vw;
+    }
+    
+    .logo h2{
+        font-size: 2.4vw;
+    }
+
+    .boutons {
+        gap: 20px;
+        height: 70%;
+        justify-content: space-evenly;
+        position: static;
+        transform: none;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .boutons section{
+        height: 20%;
+    }
+
+    button{
+        height: 80%;
+    }
+
+
+    main{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    main ul{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    main ul li{
+        width: 45%;
+        height: 200px;
+    }
+
+    main .fa-bars{
+        display: flex;
+    }
+
+    main > section{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background-color: #f5f5f590;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 5%;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 660px) {
+    main ul li{
+        width: 100%;
+    }
 }

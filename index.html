@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <header>
+    <header class="header_mobile_out" id="header">
+        <i class="fa-solid fa-x" onclick="toLeft()"></i>
         <figure class="logo">
             <img src="./img/logo/logo.png" alt="">
             <h1>Meilleurs Macaronis Italiens</h1>
@@ -21,6 +22,7 @@
         <article class="boutons">
         
             <section class="sauce">
+                <h1>Sauce (1 choix)</h1>
                 <button>
                     <img src="./img/005-tomato.png" alt="">
                     Tomate
@@ -30,12 +32,14 @@
             </section>
         
             <section class="proteine">
+                <h1>Protéine (1 choix)</h1>
                 <button><img src="./img/002-meat.png" alt="">Boeuf</button>
                 <button><img src="./img/001-chicken-leg.png" alt="">Poulet</button>
                 <button><img src="./img/001-vegetable.png" alt="">Sans viande</button>
             </section>
         
             <section class="difficulte">
+                <h1>Difficulté</h1>
                 <button><div><i class="fa-solid fa-star"></i></div>Facile</button>
                 <button><div>
                     <i class="fa-solid fa-star"></i>
@@ -50,6 +54,7 @@
             </section>
         
             <section class="temps">
+                <h1>Temps de préparation</h1>
                 <button>
                     <div>
                         <i class="fa-solid fa-clock"></i>
@@ -76,12 +81,32 @@
 
 
     <main>
-
+        <section class="headingMain">
+            <i class="fa-solid fa-bars" onclick="toRight()"></i>
+        </section>
+        
         <ul>
         </ul>
     </main>
 
 
+    <script>
+        function toLeft() {
+                const header = document.getElementById('header');
+
+                // Apply the animation
+                header.style.left = '-100%';
+                
+            }
+
+            function toRight() {
+                const header = document.getElementById('header');
+
+                // Apply the animation
+                header.style.left = '0';
+                console.log('Lol');
+            }
+    </script>
     <script src="app.js"></script>
 </body>
 
