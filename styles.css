@@ -259,6 +259,7 @@ main ul .img_content{
 
 header .fa-x, main .fa-bars{
     display: none;
+    cursor: pointer;
 }
 
 @media (max-width: 1443px) {
