@@ -4,20 +4,30 @@ let currentFilters = [];
 // Liste pour stocker tous les plats récupérés du fichier JSON
 let allPlats = [];
 
+
 function loadPlats() {
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'data.json', true);
-    xhr.onload = function() {
-        if (this.status === 200) {
-            const data = JSON.parse(this.responseText);
+    fetch('data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('ERROR MY FRIEND');
+            }
+            return response.json();
+        })
+        .then(data => {
             allPlats = data.plats;
             displayPlats(allPlats);
-        }
-    };
-    xhr.send();
+        })
+        .catch(error => {
+            console.log('Fetch problem:', error.message);
+        });
 }
 
+
+
+
 // Bouton functions 
+
+
 document.querySelectorAll("article.boutons button").forEach(button => {
     button.addEventListener('click', function() {
         const filter = this.textContent.trim();
